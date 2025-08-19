@@ -1,0 +1,81 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    min-height: 100vh;         
+    margin: 0;
+    flex-direction: column;
+}
+body p{
+    font-size: 1.125rem;
+    font-weight: 100;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1.2rem;
+    max-width: 350px;
+    width: 100%;
+}
+.card-title:hover{
+    transition: 0.5s;
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.card p{
+    color: hsl(215, 51%, 70%);
+}
+
+.image-container{
+    cursor: pointer;
+}
+.overlay{
+    transition: 0.3s;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: inherit;
+    opacity: 0;
+    width: 95%;
+    height: 95%;
+    margin-block-start: 0.5rem;
+}
+.image-container:hover .overlay{
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
+hr{
+    background-color: hsl(215, 32%, 27%);
+}
+
+.profilePictureImg{
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 100%;
+
+}
+
+.card .ethPrice{
+    color: hsl(178, 100%, 50%);
+}
+
+.priceAndTimeImg{
+    margin-top: -0.25rem;
+
+}
+
+.creator{
+    color: hsl(0, 0%, 100%);
+}
+.creator:hover{
+    transition: 0.5s;
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+

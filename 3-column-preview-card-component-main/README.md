@@ -7,7 +7,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -25,16 +24,10 @@ Users should be able to:
 ### Screenshot
 
 - Desktop: 1440px :
-
-
+<img width="5120" height="2880" alt="127 0 0 1_5500_index html" src="https://github.com/user-attachments/assets/689164de-7d72-4e82-ba5c-caa3e2209168" />
 
 - Mobile: 375px :
-
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+<img width="750" height="2854" alt="127 0 0 1_5500_index html (1)" src="https://github.com/user-attachments/assets/0af82355-70f6-44c1-80fd-f366d66a8212" />
 
 ## My process
 

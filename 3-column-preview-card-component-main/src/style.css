@@ -1,0 +1,100 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-size: 15px;
+    font-family: Lexend Deca;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    min-height: 100vh;         
+    margin: 0;
+    flex-direction: column;
+
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.card{
+    max-width: 320px;
+    width: 100%;
+    color: hsl(0, 0%, 95%);
+    padding: 2rem 1.5rem;
+}
+.image-container{
+    margin: 1rem 0 0 2rem;
+}
+.card h1, p{
+    margin: 1rem;
+    width: fit-content;
+    height: fit-content;
+
+}
+.card h1{
+    margin-bottom: 1.5rem;
+}
+.card p{
+    margin-bottom: 5rem;
+
+}
+.card button{
+    margin-left: 1rem;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.7rem 2rem;
+    border: 2px solid transparent;
+
+}
+    .card #btnSedans{
+        color: hsl(31, 77%, 52%);
+    }
+    .card #btnSUVs{
+        color: hsl(184, 100%, 22%);
+    }
+    .card #btnLuxury{
+        color: hsl(179, 100%, 13%);
+    }
+
+.card button:hover{
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+    .card #btnSedans:hover{
+        color: hsl(0, 0%, 95%);
+    }
+    .card #btnSUVs:hover{
+        color: hsl(0, 0%, 95%);
+    }
+    .card #btnLuxury:hover{
+        color: hsl(0, 0%, 95%);
+    }
+
+.card:first-child{
+    background-color: hsl(31, 77%, 52%);
+}
+.card:nth-child(2){
+    background-color: hsl(184, 100%, 22%);
+}
+.card:nth-child(3){
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 767.98px) {
+  /* All cards */
+  .card-group .card:nth-child(n) {
+    border-radius: 0;
+  }
+  /* First card */
+  .card-group .card:nth-child(1) {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  /* Last card */
+  .card-group .card:last-child {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
